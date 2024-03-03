@@ -1,0 +1,24 @@
+.location {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 70px;
+}
+.location h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Ibarra Real Nova";
+  letter-spacing: 5px;
+}
+.map {
+  margin: 5% 50px 70px;
+  width: 90%;
+  height: 500px;
+  border: 2px solid #850c0c;
+}
+iframe {
+  height: 500px;
+  width: 100%;
+}

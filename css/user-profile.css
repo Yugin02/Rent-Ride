@@ -1,0 +1,19 @@
+.user-img {
+  width: 35%;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  border: solid 2px #000;
+}
+
+@media (width > 992px) {
+  .user-info {
+    width: 35%;
+    border-radius: 10px;
+    padding: 30px 20px;
+  }
+  .reservations {
+    width: 65%;
+  }
+}

@@ -1,0 +1,35 @@
+.motorcycle-reviews {
+  color: #fff;
+  margin: 50px 0;
+}
+.motorcycle-reviews h1 {
+  margin-bottom: 20px;
+  font-family: "Ibarra Real Nova";
+}
+.user-review-img {
+  margin-right: 10px;
+}
+.user-review p {
+  margin-bottom: 0;
+  font-family: "Ibarra Real Nova";
+}
+hr {
+  z-index: 2;
+  color: #fff;
+}
+
+.star-review i {
+  font-size: 20px;
+  margin: 0 3px;
+  color: #c91919;
+}
+.review-section2 button {
+  background-color: #c91919;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+.review-section {
+  width: 100%;
+}

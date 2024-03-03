@@ -1,0 +1,147 @@
+section {
+  height: 100vh;
+  color: #000;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.signup-form {
+  position: absolute;
+}
+.login-form {
+  position: absolute;
+}
+.formm {
+  top: 10%;
+  bottom: 10%;
+}
+form {
+  width: 40%;
+  padding: 65px 0;
+  padding-left: 90px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  margin-right: -40%;
+  margin-top: 600px;
+}
+.signup-form {
+  padding: 50px 0 25px 90px;
+}
+
+.login-text::before {
+  left: 11%;
+  top: 7.5%;
+  content: "";
+  height: 85%;
+  margin-right: -20px;
+  z-index: 1;
+  border-radius: 10px;
+  width: 40%;
+  background-image: url(../images/noriel.jpg);
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  filter: brightness(50%) contrast(100%);
+  box-shadow: 10px 10px 5px 0px rgba(189, 187, 187, 0.25);
+}
+.context {
+  position: absolute;
+  z-index: 3;
+  top: 12%;
+  left: 13%;
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 30px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.signup-form input {
+  margin-bottom: 20px;
+}
+button {
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #c91919;
+}
+.other {
+  gap: 5px;
+  text-align: center;
+  width: 80%;
+}
+.other-login {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 11px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+label {
+  font-size: 13px;
+}
+.back:hover {
+  color: #c91919;
+  cursor: pointer;
+}
+
+@media (width > 1400px) {
+  .login-text::before {
+    left: 16%;
+    content: "";
+    height: 73%;
+    margin-right: -20px;
+    width: 35%;
+    top: 10%;
+  }
+  .context {
+    top: 15%;
+    left: 18%;
+  }
+  form {
+    margin-top: 1%;
+  }
+}
+
+@media (width < 1200px) {
+  .other {
+    flex-direction: column;
+  }
+  form {
+    padding-bottom: 30px;
+    margin-top: 600px;
+  }
+}
+@media (width < 992px) {
+  .login-text {
+    display: none;
+  }
+  form {
+    margin-top: -15px;
+    width: 60%;
+    padding-left: 70px;
+  }
+  .signup-form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+  }
+  .login-form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+  }
+}
+@media (width < 650px) {
+  form {
+    transform: translate(0, 0);
+    width: 80%;
+    padding-left: 13%;
+  }
+}

@@ -1,0 +1,21 @@
+.motorcycle {
+  padding-top: 100px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+.motorcycle h1 {
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 20px;
+  color: #fff;
+}
+.motorcycle-image {
+  height: 80%;
+  width: 80%;
+}
+.col {
+  background: linear-gradient(180deg, #d9d9d9 0%, rgba(83, 83, 83, 0) 100%);
+  max-width: 320px;
+  border: 1px solid #000;
+}

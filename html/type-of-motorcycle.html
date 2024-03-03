@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/types-motorcycle.css" />
+    <link rel="stylesheet" href="/css/motorcycle-reviews.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg px-1">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="bi bi-list"></i></span>
+          </button>
+          <a class="navbar-brand" href="/html/home.html"
+            ><img src="/images/logo.png" alt=""
+          /></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/html/motorcycle.html">MOTORCYCLE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/login.html">MANAGE BOOKING</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container-fluid">
+      <div
+        class="motor-info row d-flex row-cols-1 row-cols-lg-2 section justify-content-around"
+      >
+        <div class="motorcycle-info">
+          <div class="motorcycle-name">
+            <h1>Yamaha Aerox</h1>
+            <div class="motorcycle-ratings d-flex align-items-center">
+              <div class="rating d-flex align-items-center">
+                <strong style="margin-right: 5px">5.0</strong>
+                <img src="/icon/material-symbols_star.png" alt="" />
+                <img src="/icon/material-symbols_star.png" alt="" />
+                <img src="/icon/material-symbols_star.png" alt="" />
+                <img src="/icon/material-symbols_star.png" alt="" />
+                <img src="/icon/material-symbols_star.png" alt="" />
+              </div>
+              <p><strong>100</strong> <span>Reviews</span></p>
+            </div>
+          </div>
+          <div
+            class="motorcycle-specs-and-image d-flex justify-content-between"
+          >
+            <div class="motorcycle-specs">
+              <div class="weight d-flex align-items-center">
+                <img src="/icon/weight.png" alt="" />
+                <p><span>126</span> kg</p>
+              </div>
+              <div class="speed d-flex align-items-center">
+                <img src="/icon/speed.png" alt="" />
+                <p><span>111</span> km/h</p>
+              </div>
+              <div class="height d-flex align-items-center">
+                <img src="/icon/height.png" alt="" />
+                <p><span>1150</span> mm</p>
+              </div>
+              <div class="types d-flex align-items-center">
+                <img src="/icon/automatic.png" alt="" />
+                <p>Automatic</p>
+              </div>
+              <div class="cc d-flex align-items-center">
+                <img src="/icon/motor-icon.png" alt="" />
+                <p><span>155</span> cc</p>
+              </div>
+              <div class="horsepower d-flex align-items-center">
+                <img src="/icon/horse.png" alt="" />
+                <p>15.1</p>
+              </div>
+            </div>
+            <div class="motorcycle-image">
+              <img src="/images/yamahaAeroxBlack.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="motorcycle-price text-center">
+          <div class="webview">
+            <div class="price">
+              <p style="margin-bottom: 0"><span>1</span> day rental</p>
+              <strong>₱600</strong>
+              <p style="font-size: 15px; color: #4e4e4e">₱500 for 2 days</p>
+            </div>
+            <hr />
+            <div
+              class="quantity d-flex justify-content-center align-items-center"
+            >
+              <div class="number d-flex align-items-center">
+                <img src="/icon/motor-icon1.png" alt="" />
+                <p>1</p>
+              </div>
+              <div class="add"><strong>+</strong></div>
+              <div class="subtract"><strong>-</strong></div>
+            </div>
+            <div class="date">
+              <div class="departure-date">
+                <p>Departure date/time</p>
+                <div class="departure-date-time">
+                  <div class="Departure-date"></div>
+                  <div class="Departure-time"></div>
+                </div>
+              </div>
+              <div class="returning-date">
+                <p>Returning date/time</p>
+                <div class="returning-date-time">
+                  <div class="returning-date"></div>
+                  <div class="returning-time"></div>
+                </div>
+              </div>
+            </div>
+            <div class="checkout-button">
+              <a href="">checkout</a>
+              <div class="checkout-text d-flex justify-content-around row">
+                <div class="text col-5">
+                  <p>Free amendments</p>
+                </div>
+                <div class="text col-6">
+                  <p>Felxible cancellation</p>
+                </div>
+                <div class="text">
+                  <p>Price match guaranteed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mobileview">
+            <div class="mobile-date">
+              <p><span>1</span> day rental</p>
+              <strong>₱600</strong>
+            </div>
+            <div class="mobile-button">
+              <button>CHOOSE DATES</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="extras row row-cols-1 row-cols-lg-2 text-center g-5 align-items-center"
+      >
+        <div class="price-included">
+          <h2>Included in the Price</h2>
+          <div class="d-flex justify-content-around justify-content-lg-evenly">
+            <div class="included-item1 d-flex align-items-center">
+              <img src="/icon/helmet.png" alt="" />
+              <p>Free Helmet</p>
+              <img src="/icon/check.png" alt="" />
+            </div>
+            <div class="included-item2 d-flex align-items-center">
+              <img src="/icon/gas.png" alt="" />
+              <p>2Ltr fuel</p>
+              <img src="/icon/check.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="extra">
+          <h2>Extras</h2>
+          <div
+            class="row row-cols-2 row-cols-md-3 row-cols-lg-2 px-3 justify-content-center"
+            style="margin-top: 18px"
+          >
+            <div class="col d-flex">
+              <div class="check-box">
+                <img src="/icon/check-box.png" alt="" />
+              </div>
+              <p>Pants <span>₱450</span></p>
+            </div>
+            <div class="col d-flex">
+              <div class="check-box">
+                <img src="/icon/check-box.png" alt="" />
+              </div>
+              <p>Jacket <span>₱450</span></p>
+            </div>
+            <div class="col d-flex">
+              <div class="check-box">
+                <img src="/icon/check-box.png" alt="" />
+              </div>
+              <p>Helmet <span>₱200</span></p>
+            </div>
+            <div class="col d-flex">
+              <div class="check-box">
+                <img src="/icon/check-box.png" alt="" />
+              </div>
+              <p>Phone Holder <span>₱150</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="motorcycle-reviews px-5">
+      <h1>Motorcycle Reviews</h1>
+      <div style="margin-bottom: 25px" class="add-review">
+        <div
+          class="review-sesction d-flex justify-content-between align-items-center"
+        >
+          <div class="review-section1 d-flex flex-row align-items-end">
+            <h2
+              style="
+                margin-bottom: 0;
+                color: #c91919;
+                font-weight: 200;
+                margin-right: 5px;
+              "
+            >
+              5.0
+            </h2>
+
+            <div class="star-review d-flex">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <p style="margin-bottom: 0; margin: 0 5px; color: #929090">
+              <spans style="font-weight: 600">100</spans> reviews
+            </p>
+          </div>
+          <div class="review-section2">
+            <button>write a review</button>
+          </div>
+        </div>
+        <hr style="border: solid 1px #c91919; opacity: 1; margin: 20px 0" />
+      </div>
+
+      <div class="container-fluid px-5 d-flex user-review">
+        <div class="user-review-img">
+          <img src="/images/iannnn.png" alt="" />
+        </div>
+        <div class="row">
+          <p>Adriane Garcia</p>
+          <div class="star-review d-flex">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p style="color: #929090">
+            2024 - 02 - 14
+            <span style="font-size: 13px; margin-left: 5px">04:24 AM</span>
+          </p>
+          <p style="font-size: 20px">
+            wow wow wow! angas an motor barato pa san pa kam! 5 star ka sakin
+            heart heart
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="container-fluid px-5 d-flex user-review">
+        <div class="user-review-img">
+          <img src="/images/iannnn.png" alt="" />
+        </div>
+        <div class="row">
+          <p>Adriane Garcia</p>
+          <div class="star-review d-flex">
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p style="color: #929090">
+            2024 - 02 - 14
+            <span style="font-size: 13px; margin-left: 5px">04:24 AM</span>
+          </p>
+          <p style="font-size: 20px">otso otso!</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerSection">
+        <div class="footer-col-one">
+          <a href="home.html"><img src="/images/logo.png" alt="" /></a>
+          <p>Don't dream it, Ride it!</p>
+        </div>
+        <div class="footer-col-two">
+          <h2>Contact Us</h2>
+          <i class="fa fa-envelope"><span>Rent&ride@gmail.com</span></i
+          ><br />
+          <i class="fa fa-phone"><span>+639700689814</span></i>
+        </div>
+        <div class="footer-col-three">
+          <h2>Follow Us</h2>
+          <p>
+            Stay connected with us on social media to get latest news and
+            updates.
+          </p>
+          <div class="socialMedia">
+            <img src="/icon/facebook.png" alt="" />
+            <img src="/icon/ri_instagram-fill.png " alt="" />
+          </div>
+        </div>
+      </div>
+      <p class="copyright">All right reserved. © 2024</p>
+    </footer>
+  </body>
+</html>

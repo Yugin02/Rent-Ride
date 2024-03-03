@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+.section {
+  color: #fff;
+  padding: 100px 80px;
+}
+.motorcycle-image {
+  margin-right: 50px;
+}
+.motorcycle-image img {
+  width: 100%;
+  min-width: 370px;
+  max-width: 600px;
+}
+.motorcycle-name h1 {
+  font-family: "Ibarra Real Nova";
+  text-decoration: underline 1px;
+}
+.motorcycle-ratings {
+  margin-top: -35px;
+  gap: 10px;
+}
+.motorcycle-ratings strong {
+  font-size: 30px;
+  font-weight: 200;
+  font-family: Hubballi, sans-serif;
+}
+.motorcycle-ratings p {
+  margin-top: 20px;
+}
+.motorcycle-ratings span {
+  color: #aeaeae;
+}
+.motorcycle-specs p {
+  margin: 20px 0 20px 10px;
+}
+.motorcycle-price {
+  background-color: #d9d9d9;
+  border: 2px solid #850c0c;
+  box-shadow: -16px 12px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  padding: 30px 40px;
+  max-width: 70%;
+}
+.motorcycle-price p,
+.motorcycle-price strong,
+.motorcycle-price span {
+  font-family: Gelasio;
+  font-size: 25px;
+}
+.number {
+  gap: 30px;
+  border: solid 2px #6b0303;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 35px;
+  padding: 0 30px;
+}
+.number p {
+  margin-top: 15px;
+}
+.add,
+.subtract {
+  border: solid 2px #6b0303;
+  height: 35px;
+  padding: 0 10px;
+  margin-left: -2px;
+  align-items: center;
+  cursor: pointer;
+}
+.subtract {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-right: 15px;
+}
+.quantity {
+  margin-bottom: 5%;
+}
+.date p {
+  font-size: 15px;
+}
+.date {
+  margin-bottom: 7%;
+}
+
+.checkout-button a {
+  color: #fff;
+  font-family: Gelasio;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #850c0c;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  padding: 7px 20px;
+}
+.checkout-text {
+  margin-top: 4%;
+}
+.text p {
+  color: #850c0c;
+  font-size: 20px;
+  font-family: Hubballi;
+}
+.extras {
+  color: #fff;
+  padding: 0 100px;
+}
+.included-item1 p,
+.included-item2 p {
+  margin: 18px 10px;
+}
+.extras h2 {
+  font-family: "Ibarra Real Nova";
+}
+.check-box {
+  border: solid 2px #850c0c;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.check-box img {
+  margin-bottom: 10px;
+  visibility: hidden;
+}
+.extra .row {
+  margin-left: 5%;
+}
+.extra {
+  border-left: #850c0c solid 2px;
+}
+
+@media (width < 992px) {
+  .webview {
+    display: none;
+  }
+  .section {
+    padding-bottom: 0;
+  }
+  .mobileview {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .motorcycle-price {
+    position: fixed;
+    bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    min-width: 400px;
+    z-index: 3;
+  }
+  .mobile-date p,
+  .mobile-date span,
+  .mobile-date strong {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .mobile-button button {
+    background-color: #850c0c;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  .extra {
+    border-left: none;
+  }
+  .price-included {
+    border-bottom: 2px solid #850c0c;
+  }
+  .motor-info {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (width > 991px) {
+  .motorcycle-price {
+    width: 40%;
+  }
+  .mobileview {
+    display: none;
+  }
+}
